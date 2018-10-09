@@ -22,7 +22,7 @@ namespace StudentNames
             }
             foreach (Student newStudent in students)
             {
-                if (newStudent.Grades >=7)
+                if (newStudent.Grades >7)
                     Console.WriteLine(newStudent.Name);
                 
             }
